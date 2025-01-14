@@ -163,4 +163,24 @@
 }
 
 .destination-stops-places {
+  width: 543px;
+  height: 120px;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  background-color: rgba(238, 233, 217, 0.8);
+}
+
+.destination-stops-places h5 {
+  color: #000000;
+  font-display: bold;
+  display: flex;
+  align-items: center;
+}
+.day{
+width: 52px;
+height: 52px;
+font-size: 14px;
+border-radius: 50%;
+background-color: #f7f6f3;
 }
