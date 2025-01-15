@@ -159,28 +159,166 @@
 }
 
 .destination-stops {
-  margin: 60px 121px 0;
+  margin: 30px 121px 0 120px;
 }
 
-.destination-stops-places {
-  width: 543px;
-  height: 120px;
-  padding: 30px;
-  margin-bottom: 20px;
-  border-radius: 30px;
-  background-color: rgba(238, 233, 217, 0.8);
+.states h5 {
+  font-size: 24px;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-.destination-stops-places h5 {
-  color: #000000;
-  font-display: bold;
+.states2 h6 {
+  font-size: 12px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.states2 {
   display: flex;
   align-items: center;
 }
-.day{
-width: 52px;
-height: 52px;
-font-size: 14px;
-border-radius: 50%;
-background-color: #f7f6f3;
+
+.days {
+  width: 52px;
+  height: 52px;
+  font-size: 14px;
+  border-radius: 50%;
+  background-color: #f7f6f3;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  display: none;
+  position: absolute;
+  top: 195px;
+  left: 1060px;
+}
+
+.destination-stops {
+  position: relative;
+}
+
+.destination-stop {
+  background-color: #eee9d9cc;
+  width: 513px;
+  padding: 30px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.destination-stop:hover ~ .image {
+  display: block;
+}
+
+.destination-stop2 {
+  background-color: rgba(139, 184, 193, 0.8);
+  width: 513px;
+  padding: 30px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.destination-stop3 {
+  background-color: rgba(170, 216, 215, 0.8);
+  width: 513px;
+  padding: 30px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.destination-stop4 {
+  background-color: rgba(139, 192, 189, 0.8);
+  width: 513px;
+  padding: 30px;
+  margin-bottom: 20px;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.destination-stop5 {
+  background-color: rgba(151, 204, 224, 0.8);
+  width: 513px;
+  padding: 30px;
+  justify-content: space-between;
+  border-radius: 50px;
+}
+
+.destination-stop2:hover ~ .image {
+  display: block;
+}
+
+.destination-stop3:hover ~ .image {
+  display: block;
+}
+
+.destination-stop4:hover ~ .image {
+  display: block;
+}
+
+.destination-stop5:hover ~ .image {
+  display: block;
+}
+.button {
+  height: 1120px;
+  background-image: url(https://pinecone-academy-pinetour.vercel.app/image/price-and-footer-image.webp);
+}
+
+.button-header h2 {
+  font-size: 42px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.button-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 40px 0px 80px;
+}
+
+.button-header h5 {
+  font-size: 20px;
+  opacity: 70%;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #181818;
+  margin-top: 10px;
+  text-transform: capitalize;
+}
+
+.button-main {
+  width: 384px;
+  height: 516px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.button-main2 {
+  width: 384px;
+  height: 516px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.button-main3 {
+  width: 384px;
+  height: 516px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+.button-style {
+  display: flex;
+  column-gap: 24px;
+  justify-content: center;
+  margin-bottom: 116px;
+}
+
+.button-main-header {
+  width: 36px;
+  height: 36px;
 }
