@@ -426,3 +426,7 @@
   height: 35px;
   margin-left: 700px;
 }
+
+.button {
+  cursor: pointer;
+}

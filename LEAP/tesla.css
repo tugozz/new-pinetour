@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+  width: 100vw;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.section {
+  position: relative;
+}
+
+.buttons {
+  position: absolute;
+  left: 50%;
+  bottom: 32px;
+  transform: translateX(-50%);
+}
+
+button {
+  height: 40px;
+  width: 261px;
+  border: none;
+  border-radius: 4px;
+}
+
+button:nth-child(1) {
+  background-color: #3e6ae1;
+  color: white;
+}
+button:nth-child(2) {
+  background-color: white;
+  color: black;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+h3 {
+  position: absolute;
+  left: 50%;
+  top: 110px;
+  font-size: 56px;
+  color: white;
+  transform: translateX(-50%);
+}
