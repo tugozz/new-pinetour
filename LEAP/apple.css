@@ -17,6 +17,10 @@
   padding-right: 520.5px;
   justify-content: center;
   align-items: center;
+  position: fixed;
+  margin: 0 430.5px;
+  padding: 0 22px;
+  /* z-index: 10; */
 }
 
 .header img {
@@ -38,6 +42,10 @@ nav a {
   display: block;
   text-align: center;
   font-weight: 400;
+  height: 44px;
+  padding: 10px;
+
+  /* display: block; */
 }
 
 .header2 {
@@ -69,8 +77,9 @@ nav a {
   font-size: 56px;
   font-weight: 600;
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 757px;
+  /* padding-left: 757px;
   padding-top: 55px;
+ */
 }
 
 .header-fix p {
@@ -79,12 +88,43 @@ nav a {
   font-weight: 400;
   margin-top: 6px;
   font-family: Arial, Helvetica, sans-serif;
-  padding-left: 779px;
+  /* padding-left: 779px; */
   display: flex;
   text-align: center;
 }
 
-.pics {
+/* .pics {
   width: 123px;
   height: 44px;
+} */
+
+.header-problem {
+  /* padding-left: 779px;
+  d
+  /* text-align: center; */
+  justify-content: center;
+  display: flex;
+  padding-top: 55px;
+}
+
+.headerline {
+  display: flex;
+  color: white;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header-pic2 {
+  margin-top: 12px;
+  background-image: url(./Background.svg);
+  height: 692px;
+}
+
+.header-pic3 {
+  margin-top: 12px;
+  height: 692px;
+  background-image: url(./Figure.png);
 }
